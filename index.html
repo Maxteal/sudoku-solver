@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sudoku Solver</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Sudoku Solver</h1>
+	<div class="options">
+		<label for="size">Select size:</label>
+		<select id="size">
+			<option value="3">3x3</option>
+			<option value="6">6x6</option>
+			<option value="9" selected>9x9</option>
+			<option value="12">12x12</option>
+			<option value="15">15x15</option>
+		</select>
+		<button id="generate-button">Generate Puzzle</button>
+		<button id="solve-button" disabled>Solve Puzzle</button>
+	</div>
+	<div class="board">
+		<!-- the Sudoku board will be generated here using JavaScript -->
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
