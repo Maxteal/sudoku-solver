@@ -61,3 +61,8 @@ h1 {
 .board .cell:nth-child(9n+12) {
 	background-color: white;
 }
+
+@media (max-width: 768px) {
+  /* Define styles for smaller screens here */
+}
+
